@@ -20,7 +20,7 @@ Uniform Cost Search is one of the best algorithms for a search problem. It is li
     
     Insert the root into the queue While the queue is not empty
     Dequeue the maximum priority element from the queue
-    (If priorities are same, alphabetically smaller path is chosen) 
+    (If priorities are same, alphabetically smaller path will chosen) 
         If the path is ending in the goal state, print the path and exit Else
         Insert all the children of the dequeued element,
         with the cumulative costs as priority
@@ -63,14 +63,15 @@ Nida Dinç - niddinc@gmail.com
 Project Link: [https://github.com/nidadinch/UniformCostSearch](https://github.com/nidadinch/UniformCostSearch)
 
 ## Resources
-
-[1] https://thispointer.com/python-read-a-csv-file-line-by-line-with-or-without-header/ [2] https://stackoverflow.com/questions/58157354/python-create-a-graph-from-a- dictionary
-[3] https://stackoverflow.com/questions/23179230/python-processing-each-row- independently-using-map-function
+ 
+[1] https://thispointer.com/python-read-a-csv-file-line-by-line-with-or-without-header/ 
+[2] https://stackoverflow.com/questions/58157354/python-create-a-graph-from-a-dictionary
+[3] https://stackoverflow.com/questions/23179230/python-processing-each-row-independently-using-map-function
 [4] https://evanhahn.com/python-skip-header-csv-reader/
 [5] http://aima.cs.berkeley.edu/algorithms.pdf
 [6] https://www.section.io/engineering-education/graph-data-structure-python/
-[7] https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict- method
-[8] https://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key- in-python-dictionary
+[7] https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method
+[8] https://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-python-dictionary
 [9] https://www.programiz.com/python-programming/exception-handling
 [10] https://docs.python.org/3/tutorial/errors.html
-[11] https://algorithmicthoughts.wordpress.com/2012/12/15/artificial-intelligence- uniform-cost-searchucs/
+[11] https://algorithmicthoughts.wordpress.com/2012/12/15/artificial-intelligence-uniform-cost-searchucs/
