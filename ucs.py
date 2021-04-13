@@ -26,3 +26,42 @@ def build_graph(path):
     
    # print(routes)
     return routes
+
+
+def uniform_cost_search(graph, start_city, destination_city):
+
+    visited = set() 
+    route = [] 
+    priority_queue = PriorityQueue() 
+    priority_queue.put((0, [start_city])) 
+    
+    while priority_queue:
+
+        if priority_queue.empty(): 
+            print ('distance: infinity \nroute: \nnone')
+            break
+
+        distance, route = priority_queue.get() 
+        city = route[len(route)-1]
+
+        if city not in visited:
+            visited.add(city) 
+
+            if city == destination_city: 
+                route.append(distance)
+                display_route(graph,route)
+                return route
+
+        childs = graph[city]
+        neighbor=[i[0] for i in childs] 
+
+        for i in neighbor:
+            if i not in visited: 
+            
+                totaldistance = distance + int(city_to_neighbor(graph, city, i))
+                temp = route[:]
+                temp.append(i)
+                priority_queue.put((totaldistance, temp)) 
+
+    return priority_queue
+
