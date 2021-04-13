@@ -17,14 +17,14 @@ The program calculates all routes from starting city to destination city. Prints
 
 Uniform Cost Search is one of the best algorithms for a search problem. It is like Dijkstra Algorithm but it doesn’t store all route to queue, only stores the start point. When other cities were necessary, queue will store this cities. This algorithm gives the minimum cumulative cost the maximum priority. The pseudo code of algorithm using priority queue is:
 
-    ```sh
+    
     Insert the root into the queue While the queue is not empty
     Dequeue the maximum priority element from the queue
     (If priorities are same, alphabetically smaller path is chosen) 
         If the path is ending in the goal state, print the path and exit Else
         Insert all the children of the dequeued element,
         with the cumulative costs as priority
-    ```
+    
  
 
 ## Built With 
