@@ -64,14 +64,24 @@ Project Link: [https://github.com/nidadinch/UniformCostSearch](https://github.co
 
 ## Resources
  
-[1] https://thispointer.com/python-read-a-csv-file-line-by-line-with-or-without-header/ 
-[2] https://stackoverflow.com/questions/58157354/python-create-a-graph-from-a-dictionary
-[3] https://stackoverflow.com/questions/23179230/python-processing-each-row-independently-using-map-function
-[4] https://evanhahn.com/python-skip-header-csv-reader/
-[5] http://aima.cs.berkeley.edu/algorithms.pdf
-[6] https://www.section.io/engineering-education/graph-data-structure-python/
-[7] https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method
-[8] https://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-python-dictionary
-[9] https://www.programiz.com/python-programming/exception-handling
-[10] https://docs.python.org/3/tutorial/errors.html
-[11] https://algorithmicthoughts.wordpress.com/2012/12/15/artificial-intelligence-uniform-cost-searchucs/
+https://thispointer.com/python-read-a-csv-file-line-by-line-with-or-without-header/ 
+
+https://stackoverflow.com/questions/58157354/python-create-a-graph-from-a-dictionary
+
+https://stackoverflow.com/questions/23179230/python-processing-each-row-independently-using-map-function
+
+https://evanhahn.com/python-skip-header-csv-reader/
+
+http://aima.cs.berkeley.edu/algorithms.pdf
+
+https://www.section.io/engineering-education/graph-data-structure-python/
+
+https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method
+
+https://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-python-dictionary
+
+https://www.programiz.com/python-programming/exception-handling
+
+https://docs.python.org/3/tutorial/errors.html
+
+https://algorithmicthoughts.wordpress.com/2012/12/15/artificial-intelligence-uniform-cost-searchucs/
