@@ -84,3 +84,42 @@ def display_route(graph,route):
         print('%s -> %s %s' %(route[count],route[count+1],km))
         count+=1
     return
+
+
+
+
+if __name__ == "__main__":
+    
+    while True:
+        try:
+            inputFile = input("Enter road map path: ")
+            test = open(inputFile, 'r').readlines()
+        except FileNotFoundError:
+            print("Wrong file or file path, please try again!")
+        else:
+            break
+       
+    graph = build_graph(inputFile)
+
+    while True:
+        try:
+            start_city = input("Enter the start city: ")
+            if start_city not in graph: 
+                raise CityNotFoundError(start_city)
+            break
+        except CityNotFoundError:
+            print("City not found on map, try again!")
+    
+    while True:
+        try:
+            destination_city = input("Enter the destination city: ")
+            if destination_city not in graph: 
+                raise CityNotFoundError(destination_city)
+            break
+        except CityNotFoundError:
+            print("City not found on map, try again!")
+
+   
+    uniform_cost_search(graph, start_city, destination_city) 
+         
+    pass
