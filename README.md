@@ -11,6 +11,9 @@ Developed a program to find the best route based on cost between 2 cities of a m
        Balıkesir,Çanakkale,95
        Çanakkale,İstanbul,125
 
+[![Road Map](https://github.com/nidadinch/UniformCostSearch/blob/master/RoadMap.png)](https://github.com/nidadinch/UniformCostSearch/blob/master/RoadMap.png)
+
+
 The program calculates all routes from starting city to destination city. Prints the best route between this cities and cost of this route in km. It was implemented using Uniform Cost Search.
 
 ## Uniform Cost Search
