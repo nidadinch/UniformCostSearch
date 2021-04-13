@@ -65,3 +65,22 @@ def uniform_cost_search(graph, start_city, destination_city):
 
     return priority_queue
 
+
+def city_to_neighbor(graph, current, neighbor):
+    index = [i[0] for i in graph[current]].index(neighbor)
+    return graph[current][index][1]
+
+
+def display_route(graph,route):
+    length = len(route)
+    distance = route[-1]
+    print()
+    print('Distance between cities: %s km'%(distance))
+    print()
+    print('Best route: ')
+    count = 0
+    while count < (length-2):
+        km = city_to_neighbor(graph, route[count], route[count+1]) 
+        print('%s -> %s %s' %(route[count],route[count+1],km))
+        count+=1
+    return
